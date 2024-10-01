@@ -3,10 +3,10 @@ import React from "react";
 function Numbers() {
     return(<div>
         <div className="row">
-        <div className="col-12" style={{display:"flex", justifyContent:"space-around", marginTop:"3px", backgroundColor:"black" }}>
+        <div className="col-12" style={{display:"flex", justifyContent:"space-around", marginTop:"3px" }}>
             <button style={{width:"50px", height:"50px", borderRadius:"25px"}}>1</button>
             <button style={{width:"50px", height:"50px", borderRadius:"25px"}}>2</button>
-            <button style={{width:"50px", height:"50px", borderRadius:"25px"}}>6</button>
+            <button style={{width:"50px", height:"50px", borderRadius:"25px"}}>3</button>
             <button style={{width:"50px", height:"50px", borderRadius:"25px"}}>+</button>
             
          
@@ -28,7 +28,7 @@ function Numbers() {
         <div className="col-12" style={{display:"flex", justifyContent:"space-around", marginTop:"20px" }}>
             <button style={{width:"50px", height:"50px", borderRadius:"25px"}}>7</button>
             <button style={{width:"50px", height:"50px", borderRadius:"25px"}}>8</button>
-            <button style={{width:"50px", height:"50px", borderRadius:"25px"}}>6</button>
+            <button style={{width:"50px", height:"50px", borderRadius:"25px"}}>9</button>
             <button style={{width:"50px", height:"50px", borderRadius:"25px"}}>x</button>
            
             
@@ -39,7 +39,7 @@ function Numbers() {
         <div className="col-12" style={{display:"flex", justifyContent:"space-around", marginTop:"20px" }}>
             <button style={{width:"50px", height:"50px", borderRadius:"25px"}}>.</button>
             <button style={{width:"50px", height:"50px", borderRadius:"25px"}}>0</button>
-            <button style={{width:"50px", height:"50px", borderRadius:"25px"}}>6</button>
+            <button style={{width:"50px", height:"50px", borderRadius:"25px"}}>=</button>
             <button style={{width:"50px", height:"50px", borderRadius:"25px"}}>/</button>
            
             
